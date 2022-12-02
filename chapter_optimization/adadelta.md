@@ -143,11 +143,12 @@ d2l.train_concise_ch11(trainer, {'learning_rate':5.0, 'rho': 0.9}, data_iter)
 * Adadelta使用泄漏的平均值来保持对适当统计数据的运行估计。
 
 ## 练习
-
+##DOTO 这里做笔记哈！！！
 1. 调整$\rho$的值，会发生什么？
-1. 展示如何在不使用$\mathbf{g}_t'$的情况下实现算法。为什么这是个好主意？
-1. Adadelta真的是学习率为0吗？能找到Adadelta无法解决的优化问题吗？
-1. 将Adadelta的收敛行为与AdaGrad和RMSProp进行比较。
+答：
+3. 展示如何在不使用$\mathbf{g}_t'$的情况下实现算法。为什么这是个好主意？
+4. Adadelta真的是学习率为0吗？能找到Adadelta无法解决的优化问题吗？
+5. 将Adadelta的收敛行为与AdaGrad和RMSProp进行比较。
 
 :begin_tab:`mxnet`
 [Discussions](https://discuss.d2l.ai/t/5771)
